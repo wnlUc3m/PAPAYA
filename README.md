@@ -21,4 +21,4 @@ If you have any bug to report, suggestions or questios about the software and/or
 # License
 This project is licensed under the GNU GPL v3 license. You can grab a copy at [LICENSE.md](LICENSE).
 
-This project has been funded by the [Data Transparency Lab])(https://datatransparencylab.org/) Research Grants Program.
+This project has been funded by the [Data Transparency Lab](https://datatransparencylab.org/) Research Grants Program.
