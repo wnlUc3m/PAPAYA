@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:license="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".Activities.LicenseActivity">
+
+	<ScrollView
+		android:id="@+id/scrollViewLicenses"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:clipChildren="false"
+			android:orientation="vertical"
+			android:paddingBottom="12dp">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="18dp"
+				android:layout_marginTop="12dp"
+				android:layout_marginEnd="18dp"
+				android:gravity="center_vertical"
+				android:lineSpacingMultiplier="1.1"
+				android:text="@string/license_description"/>
+
+			<com.wnluc3m.papaya.Helpers.LicenseCard
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="12dp"
+				android:layout_marginTop="12dp"
+				android:layout_marginEnd="12dp"
+				license:license="@string/license_gnu_gpl_3"
+				license:link="https://tuskyapp.github.io/"
+				license:name="Tusky"/>
+
+			<com.wnluc3m.papaya.Helpers.LicenseCard
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="12dp"
+				android:layout_marginTop="12dp"
+				android:layout_marginEnd="12dp"
+				license:license="@string/license_apache_2"
+				license:link="https://developer.android.com/topic/libraries/support-library/"
+				license:name="Android Support Library"/>
+
+			<com.wnluc3m.papaya.Helpers.LicenseCard
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="12dp"
+				android:layout_marginTop="12dp"
+				android:layout_marginEnd="12dp"
+				license:license="@string/license_apache_2"
+				license:link="https://osmdroid.github.io/osmdroid/"
+				license:name="OSMDroid"/>
+
+			<com.wnluc3m.papaya.Helpers.LicenseCard
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="12dp"
+				android:layout_marginTop="12dp"
+				android:layout_marginEnd="12dp"
+				license:license="@string/license_apache_2"
+				license:link="https://osmdroid.github.io/osmdroid/"
+				license:name="OSMDroid"/>
+
+			<com.wnluc3m.papaya.Helpers.LicenseCard
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="12dp"
+				android:layout_marginTop="12dp"
+				android:layout_marginEnd="12dp"
+				license:license="@string/license_gnu_lgpl_3"
+				license:link="https://github.com/MKergall/osmbonuspack"
+				license:name="OSMBonusPack"/>
+
+			<com.wnluc3m.papaya.Helpers.LicenseCard
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="12dp"
+				android:layout_marginTop="12dp"
+				android:layout_marginEnd="12dp"
+				license:license="@string/license_mit"
+				license:link="https://github.com/androidmads/SQLiteImporterExporter"
+				license:name="SQLiteImporterExporter"/>
+
+			<com.wnluc3m.papaya.Helpers.LicenseCard
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="12dp"
+				android:layout_marginTop="12dp"
+				android:layout_marginEnd="12dp"
+				android:layout_marginBottom="12dp"
+				license:license="@string/license_mit"
+				license:link="https://github.com/androidmads/material-intro"
+				license:name="material-intro"/>
+		</LinearLayout>
+
+	</ScrollView>
+
+</android.support.constraint.ConstraintLayout>

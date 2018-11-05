@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<Preference
+		android:key="pref_database_static_field_key"
+		android:selectable="false"
+		android:summary="@string/pref_database_description"/>
+
+	<Preference
+		android:key="pref_database_static_field_export"
+		android:selectable="true"
+		android:summary="@string/pref_database_export_summary"
+		android:title="@string/pref_database_export_title">
+	</Preference>
+
+	<Preference
+		android:key="pref_database_static_field_import"
+		android:selectable="true"
+		android:summary="@string/pref_database_import_summary"
+		android:title="@string/pref_database_import_title"/>
+
+	<Preference
+		android:key="pref_database_static_field_delete"
+		android:selectable="true"
+		android:summary="@string/pref_database_delete_summary"
+		android:title="@string/pref_database_delete_title"/>
+</PreferenceScreen>

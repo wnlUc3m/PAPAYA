@@ -1,0 +1,43 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<Preference
+		android:key="pref_osm_static_field_key"
+		android:selectable="false"
+		android:summary="@string/pref_osm_description"/>
+
+	<!--<SwitchPreference
+		android:defaultValue="@bool/allow_cache_osm_download"
+		android:key="allow_cache_osm_download"
+		android:title="@string/pref_osm_allow_cache_download"/>-->
+
+	<!--<ListPreference
+		android:defaultValue="209715200"
+		android:dependency="allow_cache_osm_download"
+		android:entries="@array/pref_osm_max_cache_size_titles"
+		android:entryValues="@array/pref_osm_max_cache_size_values"
+		android:key="pref_osm_max_cache_size_value"
+		android:negativeButtonText="@null"
+		android:positiveButtonText="@null"
+		android:title="@string/pref_osm_cache_max_size"/>-->
+
+	<SwitchPreference
+		android:defaultValue="@bool/allow_osm_multitouch"
+		android:key="allow_osm_multitouch"
+		android:title="@string/pref_osm_allow_multitouch_controls"/>
+
+	<SwitchPreference
+		android:defaultValue="@bool/allow_osm_zoom_control_screen"
+		android:key="allow_osm_zoom_control_screen"
+		android:title="@string/pref_osm_allow_zoom_control_screen"/>
+
+
+	<SwitchPreference
+		android:defaultValue="@bool/allow_osm_rotation_gesture"
+		android:key="allow_osm_rotation_gesture"
+		android:title="@string/pref_osm_allow_rotation_gesture"/>
+
+	<SwitchPreference
+		android:defaultValue="@bool/allow_osm_scalebar"
+		android:key="allow_osm_scalebar"
+		android:title="@string/pref_osm_allow_scalebar"/>
+
+</PreferenceScreen>

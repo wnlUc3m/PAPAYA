@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<Preference
+		android:key="pref_location_static_field_key"
+		android:selectable="false"
+		android:summary="@string/pref_location_description"/>
+
+	<ListPreference
+		android:defaultValue="1000"
+		android:entries="@array/pref_location_mti_titles"
+		android:entryValues="@array/pref_location_mti_values"
+		android:key="pref_location_mti"
+		android:negativeButtonText="@null"
+		android:positiveButtonText="@null"
+		android:title="@string/pref_location_title_min_time_interval"/>
+
+	<ListPreference
+		android:defaultValue="1"
+		android:entries="@array/pref_location_mdi_titles"
+		android:entryValues="@array/pref_location_mdi_values"
+		android:key="pref_location_mdi"
+		android:negativeButtonText="@null"
+		android:positiveButtonText="@null"
+		android:title="@string/pref_location_title_min_distance_interval"/>
+
+	<SwitchPreference
+		android:defaultValue="@bool/pref_location_toast_notification"
+		android:key="pref_location_toast_notification"
+		android:title="@string/pref_location_allow_toast_notification"/>
+</PreferenceScreen>

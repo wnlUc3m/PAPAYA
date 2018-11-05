@@ -1,0 +1,59 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<Preference
+		android:key="pref_kdd_static_field_key"
+		android:selectable="false"
+		android:summary="@string/pref_kdd_description"/>
+
+	<SwitchPreference
+		android:defaultValue="@bool/def_pref_kdd_allow_alg_execute"
+		android:key="pref_kdd_allow_alg_execute"
+		android:title="@string/pref_kdd_allow_exec"/>
+
+	<EditTextPreference
+		android:capitalize="words"
+		android:defaultValue="@integer/def_time_span_points_value"
+		android:dependency="pref_kdd_allow_alg_execute"
+		android:inputType="number"
+		android:key="def_time_span_points_value"
+		android:maxLines="1"
+		android:numeric="integer"
+		android:selectAllOnFocus="true"
+		android:singleLine="true"
+		android:title="@string/pref_kdd_time_span_points"/>
+
+	<EditTextPreference
+		android:capitalize="words"
+		android:defaultValue="@integer/def_dist_threshold"
+		android:dependency="pref_kdd_allow_alg_execute"
+		android:inputType="number"
+		android:key="def_dist_threshold"
+		android:maxLines="1"
+		android:numeric="integer"
+		android:selectAllOnFocus="true"
+		android:singleLine="true"
+		android:title="@string/pref_kdd_dist_threshold"/>
+
+	<EditTextPreference
+		android:capitalize="words"
+		android:defaultValue="@integer/def_time_threshold"
+		android:dependency="pref_kdd_allow_alg_execute"
+		android:inputType="number"
+		android:key="def_time_threshold"
+		android:maxLines="1"
+		android:numeric="integer"
+		android:selectAllOnFocus="true"
+		android:singleLine="true"
+		android:title="@string/pref_kdd_time_threshold"/>
+
+	<EditTextPreference
+		android:capitalize="words"
+		android:defaultValue="@integer/def_time_threshold"
+		android:dependency="pref_kdd_allow_alg_execute"
+		android:inputType="number"
+		android:key="def_accuracy_value"
+		android:maxLines="1"
+		android:numeric="integer"
+		android:selectAllOnFocus="true"
+		android:singleLine="true"
+		android:title="@string/pref_accuracy_threshold"/>
+</PreferenceScreen>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Location Preferences -->
+	<string-array name="pref_location_mti_titles">
+		<item>1000 ms</item>
+		<item>2000 ms</item>
+		<item>5000 ms</item>
+		<item>10000 ms</item>
+	</string-array>
+	<string-array name="pref_location_mti_values">
+		<item>1000</item>
+		<item>2000</item>
+		<item>5000</item>
+		<item>10000</item>
+	</string-array>
+
+	<string-array name="pref_location_mdi_titles">
+		<item>1 ft</item>
+		<item>10 ft</item>
+		<item>20 ft</item>
+		<item>50 ft</item>
+		<item>1000 ft</item>
+	</string-array>
+	<string-array name="pref_location_mdi_values">
+		<item>1</item>
+		<item>10</item>
+		<item>20</item>
+		<item>50</item>
+		<item>100</item>
+	</string-array>
+	<bool name="pref_location_toast_notification">false</bool>
+
+	<!-- KDD Algorithm preferences -->
+	<bool name="def_pref_kdd_allow_alg_execute">true</bool>
+	<integer name="def_dist_threshold">3</integer>
+	<integer name="def_time_threshold">5</integer>
+	<integer name="def_time_span_points_value">1</integer>
+	<integer name="def_accuracy_value">20</integer>
+
+	<!-- OSM Preferences -->
+	<bool name="allow_osm_multitouch">true</bool>
+	<bool name="allow_osm_zoom_control_screen">false</bool>
+	<bool name="allow_osm_rotation_gesture">false</bool>
+	<bool name="allow_osm_scalebar">false</bool>
+</resources>

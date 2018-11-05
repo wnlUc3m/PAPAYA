@@ -1,0 +1,21 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+	<header
+		android:fragment="com.wnluc3m.papaya.Activities.SettingsActivity$GeneralPreferenceFragment"
+		android:icon="@drawable/ic_info_black"
+		android:title="@string/pref_header_location_service"/>
+
+	<header
+		android:fragment="com.wnluc3m.papaya.Activities.SettingsActivity$KDDAlgorithmFragment"
+		android:icon="@drawable/ic_location_searching"
+		android:title="@string/pref_header_kdd"/>
+
+	<header
+		android:fragment="com.wnluc3m.papaya.Activities.SettingsActivity$OSMPreferenceFragment"
+		android:icon="@drawable/ic_map_black"
+		android:title="@string/pref_header_osm"/>
+
+	<header
+		android:fragment="com.wnluc3m.papaya.Activities.SettingsActivity$DatabaseFragment"
+		android:icon="@drawable/ic_storage_black"
+		android:title="@string/pref_header_database"/>
+</preference-headers>

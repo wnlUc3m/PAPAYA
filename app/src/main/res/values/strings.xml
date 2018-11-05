@@ -1,0 +1,117 @@
+<resources>
+	<!-- Main -->
+	<string name="app_name">PAPAYA</string>
+	<string name="app_description">The PAPAYA Tool</string>
+	<string name="about_papaya_version">PAPAYA %s</string>
+	<string name="little_description">Please choose an option from the drawer, but let the
+		location service gather some data first!</string>
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+	<string name="action_settings">Settings</string>
+	<string name="license">This application is released under the free software license GNU
+	GPLv3. You can get a copy at https://www.gnu.org/licenses/gpl.txt</string>
+
+	<!-- Testing -->
+	<string name="hello_blank_fragment">DEBUG TEXT</string>
+
+	<!-- Notifications -->
+	<string name="notification_kdd_title">KDD Algorithm</string>
+	<string name="notification_kdd_results_text">KDD Algorithm executed with %1$d result(s)</string>
+	<string name="notification_kdd_show_button">SHOW</string>
+	<string name="notification_location_data">Location received (%1$s):\n Lat.: %2$f, Lon.: %3$f,
+		\nTime: %4$s, Acc.: %5$f</string>
+	<string name="notification_kdd_id">notif_kdd</string>
+	<string name="notification_channel_kdd_name">KDD Execution</string>
+	<string name="notification_channel_kdd_desc">KDD Algorithm execution</string>
+
+	<!-- Errors -->
+	<string name="error_permissions">Please grant all the necessary permissions</string>
+	<string name="error_no_location_data">There is not location data available to show</string>
+	<string name="btn_ok">OK</string>
+
+	<!-- Menu -->
+	<string name="drawer_open">Menu open</string>
+	<string name="drawer_closed">Menu closed</string>
+	<string name="menu_debug">Debug</string>
+	<string name="menu_map">Map</string>
+	<string name="menu_export_db">Export DB</string>
+	<string name="menu_import_db">Import DB</string>
+	<string name="menu_delete_db">Delete DB</string>
+	<string name="menu_settings">Settings</string>
+	<string name="menu_permissions">Location permissions</string>
+	<string name="menu_share">Share</string>
+	<string name="menu_about_papaya">About PAPAYA</string>
+	<string name="title_activity_settings">Settings</string>
+
+	<!-- Strings related to Preferences -->
+	<!-- Location Preferences -->
+	<string name="pref_header_location_service">Location Service</string>
+	<string name="pref_location_title_min_time_interval">Minimum Time Interval</string>
+	<string name="pref_location_title_min_distance_interval">Minimum Distance</string>
+	<string name="pref_location_description">Settings to set values to the location
+		collector service</string>
+	<string name="pref_location_allow_toast_notification">Allow toast notification</string>
+
+	<!-- KDD Preferences -->
+	<string name="pref_header_kdd">KDD Algorithm</string>
+	<string name="pref_kdd_allow_exec">Allow executing KDD</string>
+	<string name="pref_kdd_notification">Allow KDD notifications</string>
+	<string name="pref_kdd_time_span_points">Time bewtween points (in days)</string>
+	<string name="pref_kdd_dist_threshold">Distance threshold (meters)</string>
+	<string name="pref_kdd_time_threshold">Time threshold (minutes)</string>
+	<string name="pref_accuracy_threshold">Accuracy (meters)</string>
+	<string name="pref_kdd_description">Settings to set values to the algorithm\'s values</string>
+
+	<!-- OSM Preferences -->
+	<string name="pref_header_osm">OSM Preferences</string>
+	<string name="pref_osm_description">Settings to set values to the OpenStreetMap\'s map.
+	The map needs to be reloaded to apply the new settings!</string>
+	<string name="pref_osm_allow_multitouch_controls">Allow multitouch control</string>
+	<string name="pref_osm_allow_zoom_control_screen">Allow zoom control in screen</string>
+	<string name="pref_osm_allow_rotation_gesture">Allow rotation gesture</string>
+	<string name="pref_osm_allow_scalebar">Allow scalebar</string>
+
+	<!-- Database Preferences -->
+	<string name="pref_header_database">Database</string>
+	<string name="pref_database_description">Interact with the database</string>
+	<string name="pref_database_export_title">Export</string>
+	<string name="pref_database_export_summary">Allow to export the database</string>
+	<string name="pref_database_import_title">Import</string>
+	<string name="pref_database_import_summary">Allow to import the database</string>
+	<string name="pref_database_delete_title">Delete</string>
+	<string name="pref_database_delete_summary">Allow to delete the database</string>
+
+	<!-- Intro screen -->
+	<string name="slide_intro_tool">The PAPAYA Tool</string>
+	<string name="slide_intro_what">What it does…</string>
+	<string name="slide_intro_storage">Data storage</string>
+	<string name="slide_intro_kdd">KDD Algorithm</string>
+	<string name="slide_intro_permissions">Permissions</string>
+	<string name="slide_intro_what_desc">The PAPAYA (Privacy leakages from ApP trAjectorY dAta) will monitor installed applications for calls to positioning functions in the operative system, track how they collect location data (when, where, from which source, with which precision, etc.), and then profile such services based in terms of both raw information (i.e., the trajectories) as well as the indirect knowledge (from data mining of the trajectories) they could possibly learn about the user.\n\n
+	The object of the application is to raise user awareness about privacy leakages from
+		trajectory data.</string>
+	<string name="slide_intro_storage_desc">Data will be stored and processed locally in the phone,
+		so no cloud services for anything!</string>
+	<string name="slide_intro_kdd_desc">With a KDD algorithm (Knowledge Data Discovery) you
+	can see what relevant possitions are possibly leaked.</string>
+	<string name="slide_intro_permissions_desc">This application needs permissions to
+		access your location and write in your storage. Please grant all the permits.</string>
+
+	<!-- Share -->
+	<string name="share_by">Share via</string>
+	<string name="share_papaya_tool">Hey! I\'m using the PAPAYA tool to raise awareness
+		about my location data, you should try it!</string>
+	<string name="menu_tools">Tools</string>
+	<string name="menu_info">Info</string>
+
+	<!-- About -->
+	<string name="title_licenses">Licenses</string>
+
+	<!-- Licenses -->
+	<string name="repo">Bug reports, features and source code at https://github.com/wnlUc3m/PAPAYA</string>
+	<string name="license_description">PAPAYA contains assets from the following projects</string>
+	<string name="license_apache_2">Licensed under the Apache v2.0 License</string>
+	<string name="license_gnu_gpl_3">Licensed under the GNU GPL v3 License</string>
+	<string name="license_gnu_lgpl_3">Licensed under the GNU LGPL v3 License</string>
+	<string name="license_mit">Licensed under the MIT License</string>
+</resources>

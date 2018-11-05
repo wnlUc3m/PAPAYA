@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- https://www.materialpalette.com/green/lime -->
+	<color name="colorPrimary">#4CAF50</color>
+	<color name="colorPrimaryDark">#388E3C</color>
+	<color name="primary_light">#C8E6C9</color>
+	<color name="colorAccent">#CDDC39</color>
+	<color name="primary_text">#212121</color>
+	<color name="secondary_text">#757575</color>
+	<color name="icons">#FFFFFF</color>
+	<color name="divider">#BDBDBD</color>
+	<color name="sideNavBar">#388e4d</color>
+	<color name="recyclerBack">#EEEEEE</color>
+	<color name="locationPoint">#FFD93025</color>
+	<!-- Intro screen -->
+	<color name="blueColor">#4fc3f7</color>
+	<color name="blueDarkColor">#0093c4</color>
+	<color name="yellowColor">#ffd54f</color>
+	<color name="yellowDarkColor">#c8a415</color>
+	<color name="brownColor">#a1887f</color>
+	<color name="brownDarkColor">#725b53</color>
+	<color name="redColor">#f44336</color>
+	<color name="redDarkColor">#ba000d</color>
+</resources>

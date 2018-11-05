@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+	<group android:checkableBehavior="single">
+		<item
+			android:id="@+id/nav_debug"
+			android:icon="@drawable/ic_memory_black"
+			android:title="@string/menu_debug"/>
+		<item
+			android:id="@+id/nav_map"
+			android:icon="@drawable/ic_map_black"
+			android:title="@string/menu_map"/>
+		<item
+			android:id="@+id/nav_location_perms"
+			android:icon="@drawable/ic_perm_device_information_black"
+			android:title="@string/menu_permissions"
+			/>
+	</group>
+
+	<item android:title="@string/menu_tools">
+		<menu>
+			<item
+				android:id="@+id/nav_manage"
+				android:icon="@drawable/ic_menu_manage"
+				android:title="@string/menu_settings"/>
+		</menu>
+	</item>
+
+	<item android:title="@string/menu_info">
+		<menu>
+			<item
+				android:id="@+id/nav_share"
+				android:icon="@drawable/ic_menu_share"
+				android:title="@string/menu_share"/>
+			<!--TODO: create About fragment-->
+			<item
+				android:id="@+id/nav_about"
+				android:icon="@drawable/ic_info_black"
+				android:title="@string/menu_about_papaya"/>
+		</menu>
+	</item>
+</menu>
